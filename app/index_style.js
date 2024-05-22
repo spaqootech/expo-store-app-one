@@ -1,0 +1,109 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    body:{
+        backgroundColor:'lightblue',
+        flex:1,
+        padding:10,
+        gap:10
+    },
+    topbar:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        alignItems:'center'
+    },
+    Title:{
+        fontSize:40,
+        fontWeight:700
+    },
+    button:{
+        backgroundColor:'aqua',
+        padding:10,
+        paddingHorizontal:15,
+        color:'white',
+        marginRight:10,
+        borderRadius:100
+    },
+    buttons:{
+        gap:10
+    },
+    featuredtext:{
+        fontSize:20,
+        fontWeight:700
+    },
+    Card:{
+        height:250,
+        width:300,
+        marginRight:10
+    },
+    Image:{
+        height:'100%',
+        width:'100%',
+        borderRadius:20
+    },
+    blur:{
+        backgroundColor:'rgba(000,000,000,0.3)',
+        height:'100%',
+        borderRadius:20,
+        width:'100%',
+        position:'absolute'
+    },
+    Heart:{
+        position:'absolute',
+        top:10,
+        right:10
+    },
+    content:{
+        position:'absolute',
+        bottom:10,
+        left:10
+    },
+    Name:{
+        fontSize:25,
+        color:'white',
+    },
+    Downloads:{
+        color:'white'
+    },
+    Stars:{
+        flexDirection:"row",
+        gap:5
+    },
+topActions:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    alignItems:'center'
+},
+seeAll:{
+    color:'green',
+    fontWeight:700
+},
+miniImage:{
+    height:100,
+    width:100
+},
+MiniCard:{
+flexDirection:'row',
+justifyContent:'space-between',
+alignItems:"center",
+padding:10
+},
+contentMini:{
+    flex:1,
+    flexDirection:'column',
+    justifyContent:'flex-start',
+    alignItems:'flex-start',
+    textAlign:'left',
+    padding:20,
+    gap:10
+},
+MiniName:{
+    fontSize:15
+},
+MiniDownloads:{
+fontSize:12
+},
+Cards:{
+    flexDirection:'row'
+}
+})
